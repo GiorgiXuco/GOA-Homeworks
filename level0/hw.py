@@ -1,5 +1,5 @@
 from turtle import *
-
+40
 
 #we want to paint a hause
 
