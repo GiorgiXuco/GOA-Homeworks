@@ -3,5 +3,7 @@
 
 age = int(input("enter your age: "))
 
-print("your age in 10 years: " + str(age + 10))
+result = age + 10
+
+print("your age in 10 years: " + str(result))
 
