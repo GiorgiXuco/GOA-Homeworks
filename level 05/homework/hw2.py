@@ -3,6 +3,4 @@
 name = input("enter your name: ")
 surname = input("enter your surname: ")
 
-result = name + " " + surname
-
-print(result)
+print(name + " " + surname)
