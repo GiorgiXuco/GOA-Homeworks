@@ -7,10 +7,10 @@ num1 = int(input("შეიყვანე რიცხვი: "))
 action = (input("შეიყვანე მოქმედება: "))
 num2 = int(input("შეიყვანე მეორე რიცხვი: "))
 
-result = num1 + num2
-result2 = num1 * num2
-result3 = num1 // num2
-result4 = num1 - num2
+result = str(num1) + " + " + str(num2) + " = " + str(num1 + num2)
+result2 = str(num1) + " * " + str(num2) + " = " + str(num1 * num2)
+result3 = str(num1) + " // " + str(num2) + " = " + str(num1 // num2)
+result4 = str(num1) + " - " + str(num2) + " = " + str(num1 - num2)
 
 if action == "+" :
     print(result)
