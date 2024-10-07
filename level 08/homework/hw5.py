@@ -6,3 +6,5 @@ if num1 > 100 and num1 % 2 == 0:
     print("True")
 else:
     print("False")
+
+#დეკლარაცია - შექმნა

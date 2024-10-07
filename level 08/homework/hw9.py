@@ -2,7 +2,7 @@
 
 num1 = int(input("enter number: "))
 
-if num1 > 18:
+if num1 >= 18:
     print("True")
 else:
     print("False")
