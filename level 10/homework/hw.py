@@ -4,7 +4,7 @@
 # შემოიტანს მოქმედებას მაგალითად დამატებას თქვენ უნდა დაუბეჭდოთ 5 + 7 = 12
 
 num1 = int(input("შეიყვანე რიცხვი: "))
-action = (input("შეიყვანე მოქმედება: "))
+operation = (input("შეიყვანე მოქმედება: "))
 num2 = int(input("შეიყვანე მეორე რიცხვი: "))
 
 result = str(num1) + " + " + str(num2) + " = " + str(num1 + num2)
@@ -12,11 +12,11 @@ result2 = str(num1) + " * " + str(num2) + " = " + str(num1 * num2)
 result3 = str(num1) + " // " + str(num2) + " = " + str(num1 // num2)
 result4 = str(num1) + " - " + str(num2) + " = " + str(num1 - num2)
 
-if action == "+" :
+if operation == "+" :
     print(result)
-elif action == "*" :
+elif operation == "*" :
     print(result2)
-elif action == "//" :
+elif operation == "//" :
     print(result3)
-elif action == "-" :
+elif operation == "-" :
     print(result4)
