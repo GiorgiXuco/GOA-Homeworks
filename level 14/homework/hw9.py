@@ -3,8 +3,8 @@
 num1 = int(input("enter number: "))
 
 if num1 > 0:
-    print("True")
+    print("positive")
 elif num1 < 0:
-    print("True")
+    print("negative")
 elif num1 == 0:
-    print("True")
+    print("zero")
