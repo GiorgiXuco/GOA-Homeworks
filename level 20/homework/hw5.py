@@ -1,7 +1,7 @@
 # 5) შექმენით სია სადაც გექნებათ  ყველა მონაცემთა ტიპის მქონე ელემენტები  შემდეგ for loop ით შეუმოწმებთ მონაცემთა ტიპებს და გამოიტანთ მხოლოდ სტრინგ ტიპის ელემენტებს
 
-list = ["gio", 15, 15.5, True, False, "Khutsishvili"]
+items = ["gio", 15, 15.5, True, False, "Khutsishvili"]
 
-# for i in list:
-#     if isinstance(i, str):
-#         print(i)
+for i in items:
+    if type(i) == str:
+        print(i)

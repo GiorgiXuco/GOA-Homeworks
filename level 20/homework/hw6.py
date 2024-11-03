@@ -2,10 +2,12 @@
 
 num = [13, 14, 34, 56, 18,]
 
-i = 0
-sum = 0
+print(sum(num))
 
-while i < len(num):
-    sum += num[i]
-    i += 1
-    print(sum)
+
+
+# sum = 0
+
+# for i in num:
+#     sum += i
+# print(sum)

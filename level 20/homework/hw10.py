@@ -2,10 +2,14 @@
 
 num = [-1,2,-3,4,-5,6,-7,8]
 
-sum = 0
-i = 0
+positive = 0
+negative = 0
 
-while i < len(num):
-    sum += num[i]
-    i += 1
-    print(sum)
+for i in num:
+    if i > 0 :
+        positive += i
+    else:
+        negative += i
+
+print(positive)
+print(negative)

@@ -8,3 +8,7 @@ while i < (20):
     if i % 5 == 0:
         print(cars[i])
     i += 1
+
+for i in range(20):
+    if i % 5 == 0:
+        print(cars[i])

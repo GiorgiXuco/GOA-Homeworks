@@ -2,10 +2,14 @@
 
 num = [1,2,3,4,5,6,7,]
 
-sum = 0
-i = 0
+odd = 0
+even = 0
 
-while i < len(num):
-    sum += num[i]
-    i += 1
-    print(sum)
+for i in num:
+    if i % 2 ==0:
+        even += i
+    else:
+        odd += i
+
+print(even)
+print(odd)
