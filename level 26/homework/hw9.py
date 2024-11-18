@@ -7,3 +7,10 @@ sum = 0
 for i in ages:
     sum += i
 print(sum//21)
+
+
+first_rank = ages[0]
+for element in ages:
+    if ages.count(element) > ages.count(first_rank):
+        first_rank = element
+print(str(first_rank))

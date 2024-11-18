@@ -3,9 +3,9 @@
 names = ["gio", "teona", "nika", "tamuna", "temuri"]
 
 t = []
+
 for i in names:
-    if i.startswith("t"):
+    if i[0] != "t":
         t.append(i)
 
-print(names)
 print(t)
