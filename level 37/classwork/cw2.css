@@ -1,0 +1,19 @@
+#button1{
+    color: aqua;
+    background-color: blueviolet;
+    size: 60px;
+}
+#button2{
+    color: blue;
+    background-color: brown;
+    size: 70px;
+}
+
+.button{
+    background-color: aqua;
+    size: 50px;
+    color: blue;
+}
+#gio{
+    color: rgb(0, 0, 0);
+}
