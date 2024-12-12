@@ -1,0 +1,24 @@
+.square{
+    background-color: black;
+    height: 500px;
+    width: 70%;
+}
+
+.child{
+    width: 50%;
+    color: blue;
+    height: 200px;
+}
+
+.square p{
+    font-size: 50%;
+    color: white;
+}
+.child2{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
+.square2{
+    font-size: 500px;
+}
