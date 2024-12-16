@@ -1,0 +1,35 @@
+p{
+    font-size: 30px;
+}
+
+.overline{
+    text-decoration: underline overline line-through red;
+}
+
+.underline{
+    text-decoration: underline overline blue;
+}
+
+.line-through{
+    text-decoration: underline line-through green;
+}
+
+.overline2{
+    text-decoration: overline line-through gray;
+}
+
+.underline2{
+    text-decoration: wavy underline red;
+}
+
+.dashed{
+    text-decoration: dashed underline blue;
+}
+
+.dotted{
+    text-decoration: dotted underline green;
+}
+
+.double{
+    text-decoration: double underline cadetblue;
+}

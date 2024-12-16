@@ -1,0 +1,50 @@
+/* 1) გააკეთეთ ზუსტად ისეთი როგორიც ფოტოშია ნაჩვენები */
+
+.Hello{
+    text-decoration: underline dotted rgb(19, 199, 58);
+    text-align: right;
+}
+
+.World{
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.p{
+    text-decoration: overline double red;
+}
+
+.Goal{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Oriented{
+    text-decoration: line-through dashed rgb(13, 208, 13);
+    text-align: right;
+}
+
+.Academy{
+    text-decoration: line-through;
+}
+
+.is{
+    text-decoration: overline;
+}
+
+.the{
+    text-decoration: overline rgb(13, 208, 13);
+    color: rgb(13, 208, 13);
+    text-align: right;
+}
+
+.BEST{
+    text-decoration: overline gray;
+    color: gray;
+    text-align: center;
+}
+
+.one{
+    text-decoration: underline dotted rgb(13, 208, 13);
+    text-align: right;
+}
