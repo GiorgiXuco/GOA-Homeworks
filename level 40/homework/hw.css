@@ -1,0 +1,32 @@
+/* 2) დღეს ნასწავლი მასალით google font-ში მოძებნეთ თქვენი საყვარელი font შემდეგ ჩამოწერეთ ნუშის დადებითი და უარყოფითი თვისებები */
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.h11{
+    font-family: "Agu Display", serif;
+    color: green;
+}
+
+.p1{
+    font-family: "Agu Display", serif; 
+    color: greenyellow;
+}
+
+.p2{
+    font-family: "Agu Display", serif;
+    color: greenyellow;
+}
+
+.h1-2{
+    font-family: "Agu Display", serif;
+    color: darkred;
+}
+
+.p3{
+    font-family: "Agu Display", serif;
+    color: red;
+}
+
+.p4{
+    font-family: "Agu Display", serif;
+    color: red;
+}

@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+p{
+    font-size: 30px;
+}
+
+
+.gio{
+    text-transform: uppercase;
+    color: blue;
+    font-size: 60px;
+    text-shadow: -10px -10px 5px darkgreen;
+    text-align: center;
+}
+
+.p1{
+    font-family: serif ;
+}
+
+.p2{
+    font-family: sans-serif;
+}
+
+.p3{
+    font-family: monospace;
+}
+
+.p4{
+    font-family: cursive;
+}
+
+.p5{
+    font-family: fantasy;
+}
+
+.p6{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p7{
+    font-family: "Agu Display", serif;
+}

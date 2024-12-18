@@ -1,0 +1,25 @@
+/* 3) დაწერეთ რამდენიმე განსხვავებული ფერის ზომის სისქის და font-ის ტექსტები */
+
+.p1{
+    font-family: serif ;
+    color: aqua;
+    font-size: 50px;
+}
+
+.p2{
+    font-family: sans-serif;
+    color: blue;
+    font-size: 30px;
+}
+
+.p3{
+    font-family: monospace;
+    color: blue;
+    font-size: 70px;
+}
+
+.p4{
+    font-family: cursive;
+    color: darkorange;
+    font-size: 20px;
+}
