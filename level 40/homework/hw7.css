@@ -1,0 +1,9 @@
+/* 8) შრიფტის ტიპის შეცვლა
+გამოიყენეთ font-family სხვადასხვა შრიფტის ტიპებისთვის, როგორიცაა Arial, Times New Roman და სხვა. */
+.p1{
+    font-family: arial;
+}
+
+.p2{
+    font-family: 'Times New Roman';
+}

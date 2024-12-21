@@ -1,0 +1,10 @@
+/* 9) ტექსტის წონის შეცვლა (bold)
+გამოიყენეთ font-weight, რომ ტექსტი გახადოთ სქელი ან თხელი, მაგალითად, bold ან lighter.  */
+
+.p{
+    font-weight: bold;
+}
+
+.p{
+    font-weight: lighter;
+}

@@ -1,0 +1,13 @@
+/* 7) ტექსტის ხაზის გადატანა ცენტრში (text-align)
+დააყენეთ ტექსტი ცენტრში, მარცხნივ ან მარჯვნივ CSS-ის text-align-ის გამოყენებით. */
+.p1{
+    text-align: center;
+}
+
+.p2{
+    text-align: right;
+}
+
+.p3{
+    text-align: left;
+}
