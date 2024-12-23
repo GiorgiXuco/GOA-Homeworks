@@ -1,0 +1,63 @@
+
+
+/*
+
+pseudo selectors
+
+hovor მაუსის მიტანა ელემენტზე
+active მაუსის დაჭერას
+link 
+visited
+
+*/
+
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition: 0.5s;
+    border: 15px dotted black;
+    border-radius: 20px;
+    box-shadow: -10px -20px 10px darkred;
+}
+
+.square:hover{
+    background-color: blue;
+    border-radius: 40px;
+    border: 15px dashed black;
+    box-shadow: 10px 20px 10px darkblue;
+}
+
+.square:active{
+    background-color: green;
+    border-radius: 50%;
+    border: 15px dotted black;
+    box-shadow: 10px 20px 10px darkgreen;
+}
+
+.box{
+    background-color: blue;
+    color: red;
+    
+}
+
+
+.box:hover{
+    background-color: green;
+    color: yellow;
+    width: 80px;
+}
+
+.box:active{
+    height: 60px ;
+}
+
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color: green;
+}
