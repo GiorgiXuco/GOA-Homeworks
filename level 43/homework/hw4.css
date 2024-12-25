@@ -1,0 +1,16 @@
+/* 7) შექმენით რამოდენიმე input  , password  და , email  შემდეგ გასტილეთ  გამოიყენეთ box- shadow, padding, margin, border-radius. */
+.email{
+    background-color: green;
+    box-shadow: 10px 15px 10px darkgreen ;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.password{
+    background-color: blue;
+    box-shadow: 10px 15px 10px darkblue ;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+}

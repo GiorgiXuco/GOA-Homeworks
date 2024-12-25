@@ -1,0 +1,7 @@
+/* 13)შექმენი input ელემენტი, რომელსაც აქვს 15px padding ყველა მხრიდან. უზრუნველყე, რომ ტექსტი იყოს მარცხნივ განლაგებული, მაგრამ placeholder ტექსტი იყოს ცენტრში */
+input{
+    padding: 15px;
+    text-align: left;
+    color: red;
+    margin: 10px;
+}

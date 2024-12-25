@@ -1,0 +1,6 @@
+/* 9) შექმნით სარეგისტრაციო გრაფა რომელსაც ექნება border ასევე border -radius  background  ექნება მწვანე . */
+.input{
+    background-color: green;
+    border-radius: 5px;
+    border: 5px solid black;
+}

@@ -1,0 +1,38 @@
+/* 1) შექმენით იმდენი ლისტი რამდენი ლისტის ტიპიც გვაქვს(ყველა შესაძლო ვარიანტი) თითოეულ ლისტში იყოს სამი ლისტის ელემენტი, მიანიჭეთ თითოეულს განსხვავებული ლისტის ტიპი, და განსხვავებული პოზიციები, ბოლოში დაამატეთ ერთი ლისტი რომელსაც გადასცემთ ფოტოს */
+/* .uol.disc {
+    list-style-type: disc;
+}
+
+.uol.circle {
+    list-style-type: circle;
+}
+
+.uol.square {
+    list-style-type: square;
+}
+
+.uol.none {
+    list-style-type: none;
+}
+
+.uol.inside{
+    list-style-type: inside;
+}
+
+.uol.image{
+    list-style-image: url(https://preview.redd.it/is-a-bmw-e60-a-good-bmw-to-purchase-for-my-first-car-v0-8zi18j1dlc1d1.jpeg?width=1080&crop=smart&auto=webp&s=2aa8b00a994f5e1fd7626ed7e0f3436d14e086bf);
+} */
+
+input[type= "email"], input[type= "text"], input[type= "text"],input[type= "password"],input[type= "password"]{
+    border: none;
+    border-bottom: 4px dashed darkgreen;
+    outline: none;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+    padding: 20px;
+}

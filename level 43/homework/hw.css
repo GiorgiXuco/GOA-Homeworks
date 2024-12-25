@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Agu+Display&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+table{
+    border-radius: 5px;
+}
+
+th{
+    font-family: "Afacad Flux", serif;
+    color: white;
+    background-color: #01987a;
+}
+
+.Sally{
+    color: #01987a;
+    
+}
+
+tr{
+    font-family: "Afacad Flux", serif;  
+}

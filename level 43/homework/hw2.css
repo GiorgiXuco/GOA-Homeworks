@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Agu+Display&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+th{
+    background-color: 
+    #2dd4d4;
+    color: white;
+    font-family: "Afacad Flux", serif;
+}
+
+td{
+    color: darkgray;
+}
