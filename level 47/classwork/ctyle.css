@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Agu+Display&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat", serif;
+}
+
+section{
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-radius: 10px;
+}
+
+img{
+    width: 18rem;
+    border-radius: 10px 0 0 10px;
+    height: 455px;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 20px;
+    gap: 20px;
+    width: 290px;
+}
+
+.text-container h2{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+h1{
+    font-family: "Fraunces", serif;
+    font-size: 2.3rem;
+}
+
+.desc{
+    font-size: 0.9rem;
+    opacity: 55%;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.price{
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.price span{
+    font-size: 0.7rem;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    opacity: 80%;
+    font-weight: 500;
+}
+
+button{
+    padding: 20px;
+    margin-top: 8px;
+    width: 95%;
+    background-color: hsl(158, 36%, 37%);
+    color: #ffffff;
+    border: none; 
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    height: 30px;
+    border-radius: 6px;
+    outline: none;
+}
+
+.material-symbols-outlined{
+    padding: 8px;
+}
+
+h2{
+    opacity: 55%;
+}
