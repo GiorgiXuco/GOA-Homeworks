@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    overflow-x:hidden ;
+}
+.square{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    /* left: ; */
+    right: -50px;
+    /* top: ;
+    bottom: ; */
+}
+
+.square2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+
+.div{
+    
+    border: 2px solid yellow;
+    width: 50%;
+    height:50%;
+}
