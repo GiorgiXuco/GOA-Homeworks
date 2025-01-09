@@ -1,0 +1,13 @@
+/* 2) შექმენით საიტი სადაც რომლის ცენტრშიც ეწერება დიდად თქვენი სახელი და გვარი ხოლო ამ საიტს ბექგრაუნდად შეურჩიეთ რაიმე ლამაზი ფოტო და დააყენეთ უკანა ფონზე */
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body{
+    background-image: url(https://www.drivesection.com/wp-content/uploads/2023/02/2014-BMW-M5-Competition-F10-LCI-Front-002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
