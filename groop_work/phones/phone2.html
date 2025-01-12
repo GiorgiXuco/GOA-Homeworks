@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Store</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Agu+Display&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: darkorange;
+            
+        }
+        .phone-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 70px;
+            margin-top: 20px;
+        }
+        .phone-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition:  0.2s;
+        }
+        .phone-item:hover {
+            transform: scale(1.05);
+        }
+        .phone-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .phone-item h2 {
+            font-size: 18px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .phone-item p {
+            font-size: 16px;
+            color: darkorange;
+            margin: 0 0 10px;
+        }
+
+        header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px 30px;
+        background-color: rgb(211, 211, 211);
+        color: #fff;
+        }
+
+        nav ul{
+        display: flex;
+        list-style-type: none;
+        gap: 40px;
+        font-size: 1.2rem;
+        color: #fff;
+        }
+
+        nav ul li{
+        cursor: pointer;
+        color:rgba(40, 40, 40, 0.66);
+        text-decoration: none;
+        }
+
+        nav ul li:hover{
+        color: darkorange;
+        } 
+
+        a{
+            text-decoration: none;
+        }
+
+        .title{
+            font-family: "Edu AU VIC WA NT Arrows", serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="title">NGN</h1>
+        <div class="nav_login">
+            <nav>
+                <ul>
+                    <a href="http://127.0.0.1:5500/groop_work/success/success.html"><li>Home</li></a>
+                    <a href="http://127.0.0.1:5500/groop_work/success/About2.html"><li>About</li></a>
+                    <a href="http://127.0.0.1:5500/groop_work/success/Contact.html"><li>Contact</li></a>
+                </ul>
+            </nav>
+
+            
+    </header>
+    
+    <div class="container">
+        <h1>Phone Store</h1>
+        <div class="phone-grid">
+            <a href="http://127.0.0.1:5500/groop_work/success/1.html"><div class="phone-item">
+                <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F64c4f44c-faff-4748-824b-8a1acb8445c8_Thumb.jpeg&w=384&q=100" alt="Phone 1">
+                <h2>Samsung Galaxy A16 4/128GB Grey</h2>
+                <p>₾469</p>
+            </div></a>
+            <a href="http://127.0.0.1:5500/groop_work/success/2.html"><div class="phone-item">
+                <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Faaf9a56f-792e-4726-a41b-86bdc1255feb_Thumb.png&w=384&q=100" alt="Phone 2">
+                <h2>Apple iPhone 16 Pro 256GB Black Titanium</h2>
+                <p>₾3849</p>
+            </div></a>
+            <a href="http://127.0.0.1:5500/groop_work/success/3.html"><div class="phone-item">
+                <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Fd8362f08-629b-4a7a-ac46-326fee67f009_Thumb.jpeg&w=384&q=100" alt="Phone 3">
+                <h2>Samsung Galaxy S24 Ultra 12/512GB Titanium Black</h2>
+                <p>₾3299</p>
+            </div></a>
+            <a href="http://127.0.0.1:5500/groop_work/success/4.html"><div class="phone-item">
+                <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F6d954555-e0c2-4d9c-9b4e-615b568dd49c_Thumb.jpeg&w=384&q=100" alt="Phone 4">
+                <h2>Google Pixel 9 Pro XL 16/256GB Obsidian</h2>
+                <p>₾3499</p>
+            </div></a>
+            <a href="http://127.0.0.1:5500/groop_work/success/5.html"><div class="phone-item">
+                <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F4e5fba51-ae6c-4d71-97b9-e240b7b39868_Thumb.jpeg&w=384&q=100" alt="Phone 5">
+                <h2>Xiaomi 14T Pro 5G 12/512GB Grey</h2>
+                <p>₾1799</p>
+            </div></a>
+            <a href="http://127.0.0.1:5500/groop_work/success/6.html"><div class="phone-item">
+                <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Fb5096863-c508-499d-b7e1-947b7998a3e8_Thumb.png&w=384&q=100" alt="Phone 6">
+                <h2>Xiaomi Mix Flip 12GB RAM 512GB Global Version</h2>
+                <p>₾3129</p>
+            </div></a>
+            <a href="http://127.0.0.1:5500/groop_work/success/7.html"><div class="phone-item">
+                <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Ffaac31ed-4c95-40c1-b37d-00cbbfcf9c6f_Thumb.png&w=384&q=100" alt="Phone 7">
+                <h2>Apple iPhone 16 | 128GB Black</h2>
+                <p>₾2649</p>
+            </div></a>
+            <a href="http://127.0.0.1:5500/groop_work/success/8.html"><div class="phone-item">
+                <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Fd0035050-3d37-4e4d-97cc-f22e4f7d3561_Thumb.jpeg&w=384&q=100" alt="Phone 8">
+                <h2>Google Pixel 8 Pro 5G 12/128GB Obsidian</h2>
+                <p>₾1999</p>
+            </div></a>
+        </div>
+    </div>
+</body>
+</html>
