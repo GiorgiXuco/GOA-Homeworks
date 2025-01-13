@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.square:hover{
+    transform: scale(5);
+}
+

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Agu+Display&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: white;
+}
+
+/* header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(211, 211, 211);
+} */
+
+.title{
+    font-family: "Edu AU VIC WA NT Arrows", serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgb(211, 211, 211);
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+nav ul li{
+    cursor: pointer;
+    color:rgba(40, 40, 40, 0.66);
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    color: darkorange;
+}
+
+.ngn{
+    color: #ff932a;
+    cursor: pointer;
+}
+
+.box00{
+    width: 40%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    font-size: 1rem;
+    opacity: 70%;
+    cursor: pointer;
+    font-family:"Roboto", serif;
+}
+
+.laptop{
+    color:#ff932a;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+    position: relative;
+    top: 30px;
+}
+
+.box01{
+    width:855px;
+    height: 467px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 54px;
+}
+
+
+.box02{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box03{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box04{
+    width: 191px;
+    height: 270px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid rgba(122, 118, 118, 0.471);
+    border-radius: 5px;
+    padding: 2px;
+
+
+}
+
+
+.img00{
+    width: 100%;
+    height: 80%;
+}
+
+.img_p{
+    font-size: 0.9rem;
+    color: black;
+    font-weight: 700;
+}
+
+.price{
+    font-size: 0.8rem;
+    color: #ff932a;
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+}
+
+.buy{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #ff7f32; 
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s ease;
+    margin-top: auto; 
+}
