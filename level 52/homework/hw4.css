@@ -1,0 +1,11 @@
+.sqaure{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+}
+
+.sqaure:hover{
+    transform: scale(1.5);
+    transform: rotate(180deg);
+}

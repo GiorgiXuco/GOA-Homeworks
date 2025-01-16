@@ -1,0 +1,8 @@
+.square{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 300px;
+    margin: 70px;
+    transform: scale(2);
+}
