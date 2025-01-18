@@ -1,0 +1,15 @@
+.square{
+    height: 200px;
+    width: 200px;
+    animation-duration: 2s;
+}
+
+@keyframes changeColor{
+    from{
+        background-color: red;
+    }
+
+    to{
+        background-color: blue;
+    }
+}
