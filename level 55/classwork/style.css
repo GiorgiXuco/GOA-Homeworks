@@ -1,0 +1,25 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 200px 300px 400px 500px;
+    gap: 10px;
+}
+
+.child {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.parent2 {
+    display: grid;
+    grid-template-rows: 200px 300px 400px ;
+    gap: 10px;
+}

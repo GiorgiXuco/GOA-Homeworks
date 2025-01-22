@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    animation-name: changeColor;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 30%;
+}
+
+.parent{
+    position: relative;
+    top: -150px;
+    border: 2px dotted red;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+    animation-duration: 7s;
+    animation-name: rotate;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.main{
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    border: 2px dotted blue;
+    animation-name: rotate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+}
+
+.mze{
+    background-color: yellow;
+    background-image: url() ;
+    width: 250px;
+    height: 250px;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    border-radius: 50%;
+}
+
+
+
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@keyframes changeColor{
+    0%{
+        transform: translateX(0, 0) rotate(180deg);
+    }
+
+    25%{
+        transform: translate(200px) rotate(-180deg);
+    }
+
+    50%{
+        transform: translate(200px, 200px) rotate(-360deg);
+        
+    }
+
+    75%{
+        transform: translate(0px, 200px) rotate(-540deg);
+        
+    }
+
+    100%{
+        transform: translate(0, 0) rotate(-720deg);
+    }
+
+
+
+    /* from{
+        background-color: red;
+    }
+
+    to{
+        background-color: yellow;
+    } */
+}
