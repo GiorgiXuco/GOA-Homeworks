@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent{
+    display: grid;
+    border: 5px solid red;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height: 90%;
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+
+    align-items: center;
+    justify-items: center;
+}
+
+.parent img{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
