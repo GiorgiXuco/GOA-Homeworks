@@ -1,0 +1,30 @@
+
+.container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.item {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 110px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media (max-width: 450px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
