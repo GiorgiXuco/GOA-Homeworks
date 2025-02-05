@@ -46,6 +46,7 @@ nav ul{
     align-items: center;
     padding-left: 50px;
     background-color: #f0efeb;
+    padding: 50px 0px;
 }
 
 #hero h1{
@@ -67,7 +68,7 @@ nav ul{
     gap: 20px;
     align-items: start;
     justify-content: start;
-    padding-right: 250px;
+    padding-right: 450px;
 }
 
 button{
