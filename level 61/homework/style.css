@@ -130,7 +130,6 @@ header{
 }
 
 
-
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -183,9 +182,6 @@ body {
 .description{
     padding-top: 20px;
 }
-
-
-
 
 
 
@@ -259,14 +255,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
 .circles{
     padding-top: 180px;
     color: rgba(0, 0, 0, 1);
@@ -277,7 +265,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 110px;
+    gap: 150px;
     max-width: 600px;
     margin: auto;
     padding-top: 50px;
@@ -289,8 +277,8 @@ body {
     max-width: 150px;
 }
 .circle1 {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin-bottom: 10px;
     background: rgba(33, 247, 236, 1);
@@ -299,8 +287,8 @@ body {
 
 
 .circle2 {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin-bottom: 10px;
     background: rgba(51, 211, 188, 1);
@@ -308,8 +296,8 @@ body {
 }
 
 .circle3 {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin-bottom: 10px;
     background: rgba(24, 165, 198, 1);
@@ -318,8 +306,8 @@ body {
 
 
 .circle4 {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin-bottom: 10px;
     background: rgba(211, 143, 98, 1);
@@ -327,8 +315,8 @@ body {
 }
 
 .circle5 {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin-bottom: 10px;
     background: rgba(249, 76, 67, 1);
@@ -338,25 +326,12 @@ body {
 
 
 .circle6 {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin-bottom: 10px;
     background: rgba(211, 153, 255, 1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -409,22 +384,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container_b {
     max-width: 600px;
     margin: auto;
@@ -463,6 +422,7 @@ input {
     width: 95%;
 }
 button {
+    margin-bottom: 50px;
     background-color: black;
     color: white;
     padding: 10px 20px;
@@ -476,15 +436,6 @@ button {
 button:hover {
     background-color: #333;
 }
-
-
-
-
-
-
-
-
-
 
 
 
