@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6e6;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 50px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #ff4081;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #ff4081;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #e6005c;
+        }
+
+        .Back{
+            display: flex;
+            justify-content: left;
+            margin: 50px;
+            width: 130px;
+            height: 60px;
+            font-size: 40px;
+            
+        }
+
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <a href="http://127.0.0.1:5500/groop%20work%202/index.html"><button class="Back">Back</button></a>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions? Send us a message!</p>
+        <form action="submit_contact.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: info@birthday.com</p>
+        <p>Phone: +123 456 7890</p>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</titlle>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="http://127.0.0.1:5500/groop%20work%202/index.html"><button class="Back">Back</button></a>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions? Send us a message!</p>
+        <form action="submit_contact.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: info@birthday.com</p>
+        <p>Phone: +123 456 7890</p>
+    </div>
+</body>
+</html>

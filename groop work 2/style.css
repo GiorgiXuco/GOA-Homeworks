@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    height: 110vh;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff4081;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li button {
+    background: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #ff4081;
+}
+
+nav ul li button:hover {
+    background: #ffd1e3;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+.program {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.program h2 {
+    font-size: 2rem;
+    color: #ff4081;
+}
+
+.program ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.program ul li {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.program ul li i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #ff4081;
+}
+
+
+.gallery {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    color: #ff4081;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-images img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.1);
+}
+
+.birthday-menu {
+    text-align: center;
+    background-color: white;
+    padding: 40px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.birthday-menu h2 {
+    font-size: 2rem;
+    color: #ff4081;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-item {
+    text-align: center;
+    max-width: 250px;
+}
+
+.menu-item img {
+    max-width: 250px;
+    max-height: 160px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #333;
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff4081;
+    color: white;
+    padding: 15px 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left p, .footer-right p {
+    font-size: 1rem;
+}
