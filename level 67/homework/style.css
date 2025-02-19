@@ -449,5 +449,18 @@ nav ul{
 }
 
 .meet_all{
+    border: none;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #4CAF4F;
+    font-weight: 600;
+    font-size: 13.92px;
+    gap: 10px;
+}
 
+.meet_all img{
+    color: #4CAF4F;
 }
