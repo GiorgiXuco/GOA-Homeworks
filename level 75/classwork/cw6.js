@@ -4,7 +4,7 @@ const carInfo = {
     model : "m5 e60",
     year : 2003,
     color : "black",
-    carFullInfo(){
+    carcondition(){
         return `brand of car ${this.brand} model of car ${this.model} year of the car ${this.year} color of the car ${this.color}`
     }
 }
