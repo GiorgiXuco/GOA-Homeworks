@@ -343,8 +343,107 @@ nav ul{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2; 
-    width: 50%;
+    width: 60%;
 }
+.interior {
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    width: 8%;
+}
+
+.interior2 {
+    position: absolute;
+    top: 85%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    width: 8%;
+}
+
+.interior3 {
+    position: absolute;
+    top: 85%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    width: 8%;
+}
+
+.interior4 {
+    position: absolute;
+    top: 85%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    width: 8%;
+}
+
+.interior5 {
+    position: absolute;
+    top: 85%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    width: 8%;
+}
+
+.interior6 {
+    position: absolute;
+    top: 85%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    width: 8%;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    width: 2%;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    width: 2%;
+}
+
+.PHOTO {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    color: white;
+    font-size: 50px;
+}
+
+
+
+.mustang-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mustang-container img{
+    position: absolute;
+    right: -600px;
+    top: 50%;
+    transform: translateY(-52.1%);
+}
+
+
 
 
 @media (max-width:1380px) {

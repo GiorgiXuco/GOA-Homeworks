@@ -1,8 +1,21 @@
-let h1 = document.getElementsByTagName("h1")
+let count = 0;
+const counterElement = document.getElementById("counter");
 
-let counter = 0
+function updateCounter() {
+    counterElement.textContent = count;
+}
 
-function increase(){
-    counter++
-    h1[0].innerHTML = counter
+function increase() {
+    count++;
+    updateCounter();
+}
+
+function decrease() {
+    count--;
+    updateCounter();
+}
+
+function reset() {
+    count = 0;
+    updateCounter();
 }
