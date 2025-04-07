@@ -1,4 +1,4 @@
-let audios = ["./audios/crash.mp3", "./audios/kick-bass.mp3", "./audios/snare.mp3", "./audios/tom-1.mp3", "./audios/tom-2.mp3", "./audios/tom-3.mp3", "./audios/tom-4.mp3",]
+let audios = ["./audios/crash.mp3", "./audios/kick-bass.mp3", "./audios/snare.mp3", "./audios/tom-1.mp3", "./audios/tom-2.mp3", "./audios/tom-3.mp3", "./audios/tom-4.mp3", "./audios/jingle-slide-guitar-22108.mp3"]
 let instruments = document.querySelectorAll(".img-cont")
 document.addEventListener("keyup", function (e) {
 
@@ -28,3 +28,11 @@ document.addEventListener("keydown", function (e) {
         sec1.play()
     }
 })
+
+
+let button = document.querySelector("button")
+
+button.addEventListener("click",function(){
+    let sound = new Audio(audios[7])
+    sound.play()
+} , {once:true})
