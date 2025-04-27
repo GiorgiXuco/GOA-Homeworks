@@ -16,8 +16,7 @@ let count1 = 0
 let count2 = 0
 
 
-let player1Style = `<div class='bigdiv'><div class='won'><h2 class='h2'>Player 1 WON</h2><div class='scoresdiv'><h3>P1:${count1+1}</h3><h3>P2:${count2}</h3></div><button>play again</button></div></div>`
-let player2Style =`<div class='bigdiv'><div class='won'><h2 class='h2'>Player 2 WON</h2><div class='scoresdiv'><h3>P1:${count1}</h3><h3>P2:${count2+1}</h3></div><button>play again</button></div></div>`
+
 
 
 
@@ -50,15 +49,19 @@ button.addEventListener("click", function(){
             score2.textContent = count2
 
             if(count1 == 10){
-                body.innerHTML = player1Style
+                
             }else if(count2 == 10){
-                body.innerHTML = player2Style
+                
             }
     }, 400)
 
 
 
-    
-    
+    let player1Style = `<div class='bigdiv'><div class='won'><h2 class='h2'>Player 1 WON</h2><div class='scoresdiv'><h3>P1:10</h3><h3>P2:${count2}</h3></div><button>play again</button></div></div>`
+
+    let player2Style =`<div class='bigdiv'><div class='won'><h2 class='h2'>Player 2 WON</h2><div class='scoresdiv'><h3>P1:${count1}</h3><h3>P2:${count2}</h3></div><button>play again</button></div></div>`
+
+
+
     audio.play()
 })

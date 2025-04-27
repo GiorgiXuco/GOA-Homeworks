@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: "Roboto Mono", monospace;
+}
+.header{
+    display: flex;
+    padding: 0px 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.shopping{
+    width: 200px;
+    height: 1000px;
+    position: absolute;
+    border: 1px solid black;
+    right: 0px;
+    top: 0px;
+}
+
+.head-left{
+    display: flex;
+    gap:60px;
+    align-items: center;
+}
+
+.head-left img{
+    width: 90px;
+}
+.head-nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+
+#close{
+    display: flex;
+    cursor: pointer;
+    justify-content: end;
+    font-size: 1.5rem;
+}
+
+#close div{
+    transition: 0.3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+#close div img{
+    width: 30px;
+}
+#close div:hover{
+    background-color: red;
+}
+#close div:active{
+    background-color: rgb(236, 134, 224);
+}
+.shopping-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    box-shadow: 5px 0px 30px #000;
+}
+.prod-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.product{
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+}
