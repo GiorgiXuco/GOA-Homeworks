@@ -18,8 +18,8 @@ body{
     text-align: center;
 }
 
-.parent2 {
+/* .parent2 {
     display: grid;
-    grid-template-rows: 200px 300px 400px ;
+    grid-template-rows: 200px 300px 400px;
     gap: 10px;
-}
+} */
