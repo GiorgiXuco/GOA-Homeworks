@@ -9,19 +9,13 @@
 </head>
 
 <body>
-    <div id="box-1">
-        <div id="task">
-            <input type="text" placeholder="task" id="task">
-            <button id="btn-1">add</button>
-        </div>
-
-        <ul>
-        </ul>
+    <h1>Todo List</h1>
+    <div class="input-container">
+        <input type="text" id="todoInput" placeholder="Enter a todo...">
+        <button onclick="addTodo()">Add Todo</button>
     </div>
+    <div id="todoList"></div>
 
-    <div id="box-2">
-        <h2>complated</h2>
-    </div>
     <script src="script.js"></script>
 </body>
 

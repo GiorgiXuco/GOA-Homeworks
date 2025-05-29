@@ -1,10 +1,23 @@
-let submit = document.getElementById("btn-1")
+function addTodo() {
+    const input = document.getElementById("todoInput");
+    const value = input.value.trim();
+    if (value === "") return;
 
-let ul = document.getElementsByTagName("ul")[0]
+    const todoList = document.getElementById("todoList");
 
-submit.addEventListener("click", () =>{
-    let inp = document.getElementById("task").value
-    let li = document.createElement("li")
-    li.textContent = inp
-    ul.appendChild(li)
-})
+    const item = document.createElement("div");
+    item.className = "todo-item";
+
+    const text = document.createElement("span");
+    text.textContent = value;
+
+    const delBtn = document.createElement("button");
+    delBtn.textContent = "Delete";
+    delBtn.onclick = () => item.remove();
+
+    item.appendChild(text);
+    item.appendChild(delBtn);
+    todoList.appendChild(item);
+
+    input.value = "";
+}
