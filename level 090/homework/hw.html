@@ -1,34 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/level 90/homework/hw.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Legal PC Market</title>
+    <link rel="stylesheet" href="hw.css">
 </head>
+
 <body>
     <header>
-        <div class="head-left">
-            <img src="/level 89/classwork/image/ChatGPT_Image_Apr_14__2025__07_51_31_PM-removebg-preview.png" alt="">
-
-            <div class="head-nav">
-                <ul>
-                    <li>Full Builds</li>
-                    <li>Keyboards</li>
-                    <li>Mouse</li>
-                    <li>Accessories</li>
-                    <h3>PC SHOP</h3>
-                </ul>
-            </div>
-            <div class="cart">
-                <span class="material-symbols-outlined">
-                    shopping_cart
-                    </span>
-            </div>
-        </div>
-        
+        <h2>Legal PC Market</h2>
+        <button id="cartBtn" aria-label="Open shopping cart">🛒 Cart</button>
     </header>
+
+    <main id="product-list">
+        <div class="product">
+            <img src="image/pc1.png" alt="Cool Pc" />
+            <h3>Cool Pc</h3>
+            <p>$1099</p>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <img src="image/pc2.png" alt="Better Pc" />
+            <h3>Better Pc</h3>
+            <p>$999</p>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <img src="image/pc3.png" alt="Mid Pc" />
+            <h3>Mid Pc</h3>
+            <p>$899</p>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <img src="image/pc4.png" alt="Pro Pc" />
+            <h3>Pro Pc</h3>
+            <p>$1299</p>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <img src="image/pc5.png" alt="Starter Pc" />
+            <h3>Starter Pc</h3>
+            <p>$599</p>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <img src="image/pc6.png" alt="Gaming Beast" />
+            <h3>Gaming Beast</h3>
+            <p>$1499</p>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <img src="image/pc7.png" alt="Ultra Pc" />
+            <h3>Ultra Pc</h3>
+            <p>$1999</p>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <img src="image/pc8.png" alt="Silent Pc" />
+            <h3>Silent Pc</h3>
+            <p>$799</p>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <img src="image/pc9.png" alt="RGB Monster" />
+            <h3>RGB Monster</h3>
+            <p>$1199</p>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+    </main>
+
+    <aside id="cart" aria-label="Shopping Cart">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button id="closeCart" aria-label="Close shopping cart">✖</button>
+        </div>
+        <div id="cart-items"></div>
+        <div class="cart-summary">
+            <p>Total Price: $<span id="total-price">0</span></p>
+            <p>Amount: <span id="total-items">0</span></p>
+        </div>
+    </aside>
     <script src="hw.js"></script>
 </body>
+
 </html>
