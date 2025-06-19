@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fefefe;
+    margin-top: 50px;
+}
+
+.input-container {
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+#todoList,
+#completedList {
+    margin-top: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.todo-item {
+    background-color: #e7e7e7;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.todo-buttons button {
+    margin-left: 5px;
+}
+
+.edit {
+    background-color: #007bff;
+}
+
+.complete {
+    background-color: green;
+}
+
+.delete {
+    background-color: red;
+}
+
+#clearCompleted {
+    margin-top: 15px;
+    background-color: darkred;
+}
