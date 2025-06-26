@@ -29,13 +29,6 @@ header {
     color: #2196f3;
 }
 
-.theme-toggle {
-    background: #2c2c2c;
-    padding: 5px 10px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
 main {
     padding: 40px;
     display: flex;
@@ -118,43 +111,39 @@ h1 {
     padding: 25px;
 }
 
-body.light-mode {
-    background-color: #ffffff;
-    color: #000000;
-}
 
-body.light-mode header {
-    background-color: #f0f0f0;
-}
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
 
-body.light-mode .add-task input {
-    background: #f0f0f0;
-    color: #000000;
-    border-color: #2196f3;
-}
+    .add-task input {
+        width: 100%;
+    }
 
-body.light-mode .task-item {
-    background-color: #eeeeee;
-}
+    .add-btn {
+        width: 100%;
+    }
 
-body.light-mode .add-btn,
-body.light-mode .done-btn,
-body.light-mode .delete-btn {
-    color: white;
-}
+    .left, .right {
+        flex: unset;
+        width: 100%;
+    }
 
-body.light-mode .done-btn {
-    background-color: #4caf50;
-}
+    header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px 10px;
+    }
 
-body.light-mode .delete-btn {
-    background-color: #f44336;
-}
+    .title span {
+        font-size: 24px;
+    }
 
-body.light-mode .add-btn {
-    background-color: #2196f3;
-}
-
-body.light-mode .section-title {
-    color: #2196f3;
+    .section-title {
+        padding: 15px;
+        font-size: 22px;
+    }
 }

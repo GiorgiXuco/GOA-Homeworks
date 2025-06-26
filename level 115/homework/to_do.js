@@ -79,28 +79,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
     renderTasks()
 })
-
-document.addEventListener("DOMContentLoaded", () => {
-    const taskInput = document.getElementById("taskInput")
-    const taskList = document.getElementById("taskList")
-    const finishedList = document.getElementById("finishedList")
-    const addTaskBtn = document.getElementById("addTaskBtn")
-    const themeToggle = document.getElementById("themeToggle")
-
-    const currentTheme = localStorage.getItem("theme")
-    if (currentTheme === "light") {
-        document.body.classList.add("light-mode")
-        themeToggle.textContent = "🌞"
-    }
-
-    themeToggle.addEventListener("click", () => {
-        document.body.classList.toggle("light-mode")
-
-        const isLight = document.body.classList.contains("light-mode")
-        themeToggle.textContent = isLight ? "🌞" : "🌙"
-        localStorage.setItem("theme", isLight ? "light" : "dark")
-    })
-
-
-})
-

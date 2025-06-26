@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        ul {
+            list-style: square;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            cursor: pointer;
+            color: #0077cc;
+        }
+
+        #car-details {
+            margin-top: 20px;
+            border-top: 2px solid #ccc;
+            padding-top: 20px;
+        }
+
+        #car-image {
+            width: 300px;
+            display: block;
+            margin: 10px 0;
+        }
+
+        button {
+            margin: 5px;
+            padding: 10px 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>მანქანების გალერეა</h1>
+    <ul id="car-list">
+        <li onclick="selectCar('bmw')">BMW M5</li>
+        <li onclick="selectCar('mercedes')">Mercedes S-Class</li>
+        <li onclick="selectCar('audi')">Audi RS7</li>
+    </ul>
+
+    <div id="car-details"></div>
+
+    <audio id="car-audio"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
