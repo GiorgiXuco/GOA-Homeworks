@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>📋 ჩემი ToDo</h1>
+
+    <button onclick="getTodos(10)">10 ტასკის წამოღება</button>
+    <button onclick="filterCompleted(true)">მხოლოდ დასრულებული</button>
+    <button onclick="filterCompleted(false)">მხოლოდ დაუმთავრებელი</button>
+
+    <div style="margin-top: 20px;">
+        <input type="number" id="taskId" placeholder="შეიყვანე ID" />
+        <button onclick="getTodoById()">ID-ით მოძებნა</button>
+    </div>
+
+    <h2>რეზულტატი:</h2>
+    <ul id="todoList"></ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
