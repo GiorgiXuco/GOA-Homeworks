@@ -4,36 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>ამინდის პროგნოზი ☀❄</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #4facfe, #00f2fe);
-            color: #fff;
-            text-align: center;
-            padding: 50px;
-        }
-
-        input {
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            margin-right: 10px;
-        }
-
-        button {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background: #fff;
-            color: #333;
-            cursor: pointer;
-        }
-
-        .weather {
-            margin-top: 30px;
-            font-size: 24px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -42,31 +13,6 @@
     <button id="getWeather">ნახე ამინდი</button>
     <div class="weather" id="weatherResult"></div>
 
-    <script>
-        document.getElementById("getWeather").addEventListener("click", () => {
-            const city = document.getElementById("city").value;
-            const apiKey = "YOUR_API_KEY"; // აქ ჩასვი შენი API Key OpenWeatherMap-იდან
-
-            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=ka`)
-                .then((response) => {
-                    if (!response.ok) {
-                        throw new Error("ქალაქი ვერ მოიძებნა");
-                    }
-                    return response.json();
-                })
-                .then((data) => {
-                    const weatherInfo = `
-            <p><strong>ქალაქი:</strong> ${data.name}</p>
-            <p><strong>ტემპერატურა:</strong> ${data.main.temp}°C</p>
-            <p><strong>აღწერა:</strong> ${data.weather[0].description}</p>
-          `;
-                    document.getElementById("weatherResult").innerHTML = weatherInfo;
-                })
-                .catch((error) => {
-                    document.getElementById("weatherResult").innerHTML = `შეცდომა: ${error.message}`;
-                });
-        });
-    </script>
 </body>
 
 </html>
