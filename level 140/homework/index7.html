@@ -1,0 +1,35 @@
+<!-- 7.დაარენდერეთ 5 ნაბიჯზე შექმნილი React ელემენტების სია ახლად შექმნილ ul ტეგში. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@16.0/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16.0/umd/react-dom.development.js"></script>
+</head>
+
+<body>
+    <ul id="steps-list"></ul>
+
+    <script>
+        const steps = [
+            "ნაბიჯი 1: ფაილის გახსნა",
+            "ნაბიჯი 2: კოდის წერა",
+            "ნაბიჯი 3: ფაილის შენახვა",
+            "ნაბიჯი 4: ბრაუზერში გაშვება",
+            "ნაბიჯი 5: შედეგის შემოწმება"
+        ];
+
+        const listItems = steps.map((step, index) =>
+            React.createElement('li', { key: index }, step)
+        );
+
+        const ulElement = React.createElement('ul', null, listItems);
+
+        ReactDOM.render(ulElement, document.getElementById('steps-list'));
+    </script>
+</body>
+
+</html>

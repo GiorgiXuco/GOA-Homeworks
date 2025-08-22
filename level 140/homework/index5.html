@@ -1,0 +1,43 @@
+<!-- 5.შექმენით თქვენი საყვარელი ფილმების სია. დაუარეთ ამ სიის თითოეულ წევრს და მათგან შექმენით ReactElement(li), გაუწერეთ კლასს ატრიბუტი და გასტილეთ. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@16.0/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16.0/umd/react-dom.development.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script>
+        const movies = ["Inception", "Interstellar", "The Dark Knight", "Fight Club", "The Matrix"];
+
+        const movieListItems = movies.map((movie, index) =>
+            React.createElement(
+                "li",
+                {
+                    key: index,                
+                    className: "movie-item",       
+                    style: {                       
+                        color: "white",
+                        backgroundColor: "teal",
+                        margin: "5px",
+                        padding: "8px",
+                        borderRadius: "5px"
+                    }
+                },
+                movie 
+            )
+        );
+
+        const movieList = React.createElement("ul", null, movieListItems);
+
+        ReactDOM.render(movieList, document.getElementById("root"));
+    </script>
+</body>
+
+</html>

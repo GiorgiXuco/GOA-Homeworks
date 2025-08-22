@@ -1,0 +1,29 @@
+<!-- 3.შექმენით React ელემენტი(h1) createElement მეთოდის გამოყენებით. ახსენით რას აკეთებს იგი და კომენტარის სახით ჩამოწერეთ მისი პარამეტრები. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@16.0/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16.0/umd/react-dom.development.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script>
+        // React.createElement ქმნის DOM ობიექტს
+        const myElement = React.createElement(
+            "h1",
+            { id: "title", style: { color: "red" } },
+            "Hello React World!"
+        );
+
+
+        ReactDOM.render(myElement, document.getElementById("root"));
+    </script>
+</body>
+
+</html>
